@@ -1,0 +1,29 @@
+# Build do Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Banco H2 local (somente a pasta data/ da raiz, NÃO a de resources)
+/data/
+*.mv.db
+*.lock.db
+*.trace.db
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse / VS Code
+.classpath
+.project
+.settings/
+.vscode/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

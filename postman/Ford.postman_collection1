@@ -1,0 +1,117 @@
+{
+  "info": {
+    "_postman_id": "8312ade7-3bbb-4931-be73-033f5b6b7def",
+    "name": "Ford",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "55051980",
+    "_collection_link": "https://go.postman.co/collection/55051980-8312ade7-3bbb-4931-be73-033f5b6b7def?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "teste",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "POST",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"brand\": \"Ford\",\r\n  \"model\": \"Ranger\",\r\n  \"version\": \"XLT 3.0L V6 AT 26MY\",\r\n  \"equipments\": [\r\n    \"Potência\",\r\n    \"Torque\",\r\n    \"Cilindrada\",\r\n    \"Peso em ordem de marchas\",\r\n    \"Economia de Combustível\",\r\n    \"Quantidade de marchas\",\r\n    \"Polegadas\",\r\n    \"Liga leve\",\r\n    \"Wi-Fi Hotspot\",\r\n    \"Loja de Aplicativos\",\r\n    \"Equipamento que nao existe\"\r\n  ]\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/v1/specifications",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "v1",
+            "specifications"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "POST - Specs Ranger Limited",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"brand\": \"Ford\",\r\n  \"model\": \"Ranger\",\r\n  \"version\": \"Limited 3.0L V6 26MY\",\r\n  \"equipments\": [\r\n    \"Potência\",\r\n    \"Polegadas\",\r\n    \"Peso em ordem de marchas\",\r\n    \"Liga leve\",\r\n    \"Pneus ATR (50/50)\"\r\n  ]\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/v1/specifications",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "v1",
+            "specifications"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "POST - Specs Ranger Limited+",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"brand\": \"Ford\",\r\n  \"model\": \"Ranger\",\r\n  \"version\": \"Limited + 3.0L V6 26MY\",\r\n  \"equipments\": [\r\n    \"Potência\",\r\n    \"Polegadas\",\r\n    \"Liga leve\",\r\n    \"Pneus ATR (50/50)\"\r\n  ]\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/v1/specifications",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "v1",
+            "specifications"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    }
+  ]
+}

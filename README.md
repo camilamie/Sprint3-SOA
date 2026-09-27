@@ -134,6 +134,8 @@ acesso sem token (401) e acesso com perfil sem permissão (403).
 ### Evidência de execução
 
 ![Todos os testes passando no IntelliJ](docs/evidencias/testes-passando.png)
+![Swagger com token JWT](docs/evidencias/swagger-authorize.png)
+![Swagger com token JWT](docs/evidencias/swagger-authorize2.png)
 
 ## Integrantes
 - Camila Mie Takara - RM555418

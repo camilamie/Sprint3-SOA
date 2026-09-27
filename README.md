@@ -130,7 +130,10 @@ mvnw.cmd spring-boot:run      # Windows
 
 Os testes cobrem cenários de sucesso, erro de validação, recurso inexistente, duplicidade,
 acesso sem token (401) e acesso com perfil sem permissão (403).
-Relatórios gerados em `target/surefire-reports/`.
+
+### Evidência de execução
+
+![Todos os testes passando no IntelliJ](docs/evidencias/testes-passando.png)
 
 ## Integrantes
 - Camila Mie Takara - RM555418
